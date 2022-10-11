@@ -11,6 +11,7 @@ class Add extends StatefulWidget {
 }
 
 class _AddState extends State<Add> {
+  final _formkey = GlobalKey<FormState>();
   TextEditingController txtId = TextEditingController();
   TextEditingController txtNome = TextEditingController();
   TextEditingController txtEmail = TextEditingController();

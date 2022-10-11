@@ -1,16 +1,13 @@
-# flutter_crud
+# Cadastro de cliente
 
-A new Flutter project.
+## Descrição do Projeto
+<p align="center">Cadastro de cliente desenvolvido em flutter demonstrando um CRUD simples fazendo chamadas em APIs
+e chamando API de busca cep, para preencher o endereço do cliente.
+</p>
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+Alguns recursos para você começar se este for seu primeiro projeto Flutter:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Para obter ajuda para começar com o desenvolvimento do Flutter, consulte 
+[documentação online](https://docs.flutter.dev/), que oferece tutoriais,
+exemplos, orientação sobre desenvolvimento mobile e uma referência completa de API.

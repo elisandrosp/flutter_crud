@@ -25,16 +25,17 @@ class _ClienteListViewState extends State<ClienteListView> {
     });
   }
 
+  //abre a tela de novo cliente
   novoCliente() {
     Navigator.pushNamed(context, "/add");
   }
 
+  //exclui cliente
   excluirCliente(index) async {
     ClienteLista cliente = clientes[index];
     if (cliente.id != null) {
       ApiCliente api = ApiCliente();
       var result = await api.delete(cliente.id);
-      print("--------------,///////////---------" + result.toString());
       setState(() {
         clientes.removeAt(index);
       });
